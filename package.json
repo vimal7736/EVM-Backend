@@ -1,8 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
-  "type" :"module",
+  "main": "api/index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
@@ -14,7 +14,10 @@
   ],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Event Management System Backend API",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dayjs": "^1.11.19",
